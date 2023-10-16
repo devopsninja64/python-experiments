@@ -13,3 +13,7 @@ python topx.py
 ```
 
 The program will generate an output file named `datafile_sorted` with sorted data.
+
+The maximum size of an array can be adjusted by changing the `MAX_PER_FILE` variable. In case there's not enough memory on the server.
+
+Having it set to the highest number that will not kill a server is ideal. However, having the value set really low could cause an error about having too many open files.
